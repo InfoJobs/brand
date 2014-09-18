@@ -5,8 +5,6 @@
 * [Iconography Style Guidelines] (../master/03-onepage-style-guidelines/01-iconography-guidelines.png?raw=true)
 * [InfoJobs Executive Style Guidelines] (../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.png?raw=true)
 
-Note: This repository is WIP and we will update it with new content every now and then.
-
 If you have any question, send us an email to [design@infojobs.net] (mailto:design@infojobs.net)
 
 
