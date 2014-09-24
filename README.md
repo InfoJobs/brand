@@ -1,4 +1,4 @@
-![alt text](../master/03-onepage-style-guidelines/02-github-header.png)
+![alt text](../master/03-onepage-style-guidelines/01-headers/01-github-header.png)
 
 **Downloads**
 * [InfoJobs Brand Manual in Spanish (PDF ~2.3MB)](../master/01-brand-manual/01-brand-manual.pdf?raw=true)
