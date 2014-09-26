@@ -7,9 +7,11 @@
 * [InfoJobs Corporate Powerpoint Template (.ZIP ~5MB)] (../master/05-templates/01-powerpoint-corporate/_powerpoint-corporate.zip?raw=?true) - Use this powerpoint template as a base to build your own InfoJobs presentations. You will find a slide deck containing title and content layouts, charts, tables, etc. 
 * [InfoJobs Display Powerpoint Template (.ZIP ~6MB)](../master/05-templates/02-powerpoint-display/_powerpoint-display.zip?raw=?true) - Use this template to create 16:9 kiosk-ready presentations to run on a tv and other displays alike. The ZIP file contains a .PPTX and a .PPSX file. Use the .PPTX to add/edit any slide you want in Powerpoint, then export it to PPSX. Execute the PPSX for the presenation to run unattended. 
 
+***
+
 **Style guidelines**
-* Iconography usage [PNG](../master/03-onepage-style-guidelines/01-iconography-guidelines.png?raw=true) [PSD(~7.6MB)](../master/03-onepage-style-guidelines/01-iconography-guidelines.psd)
-* InfoJobs Executive Style Guidelines [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.png?raw=true) [PSD(~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.psd)
+* Iconography usage [PNG](../master/03-onepage-style-guidelines/01-iconography-guidelines.png?raw=true) [PSD (~7.6MB)](../master/03-onepage-style-guidelines/01-iconography-guidelines.psd)
+* InfoJobs Executive Style Guidelines [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.png?raw=true) [PSD (~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.psd)
 
 ***
 
