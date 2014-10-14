@@ -10,6 +10,7 @@
 ***
 
 **Style guidelines**
+* InfoJobs Empleo Style Guidelines: [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-empleo.png) | [PSD (~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-empleo.psd)
 * InfoJobs Executive Style Guidelines: [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.png?raw=true) | [PSD (~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.psd) 
 * Iconography usage: [PNG](../master/03-onepage-style-guidelines/01-iconography-guidelines.png?raw=true) | [PSD (~7.6MB)](../master/03-onepage-style-guidelines/01-iconography-guidelines.psd)
 
