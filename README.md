@@ -2,7 +2,7 @@
 
 **Basic Downloads**
 * [InfoJobs Brand Manual in Spanish (PDF ~2.3MB)](../master/01-brand-manual/01-brand-manual.pdf?raw=true)
-* [InfoJobs "Logo Pack" (ZIP ~10MB)] (../master/02-logos/_logo-pack.zip?raw=true) - Contains the vector and bitmap versions of the following logos: InfoJobs, InfoJobs.it, InfoJobs with the "Let's Work" claim,  Schibsted Classified media and Lectiva.
+* [InfoJobs Logo](../master/02-logos/01-ij-spain)
 * [Iconography Set in SVG format (.ZIP ~15Kb)](../master/06-icons/ij-icons-basic-svg.zip?raw=true) - Basic set of icons in vector format you can use in your presentations and any other online/offline application. [Browse icons here](../master/06-icons/01-icons-svg)
 * [InfoJobs Corporate Powerpoint Template (.ZIP ~5MB)] (../master/05-templates/01-powerpoint-corporate/_powerpoint-corporate.zip?raw=?true) - Use this powerpoint template as a base to build your own InfoJobs presentations. You will find a slide deck containing title and content layouts, charts, tables, etc.
 
