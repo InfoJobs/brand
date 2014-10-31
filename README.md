@@ -5,7 +5,7 @@
 * [InfoJobs Spain Logos](../master/02-logos/01-ij-spain)
 * [InfoJobs Italy Logos](../master/02-logos/02-ij-italy)
 * [SCM Spain Logos](../master/02-logos/03-scm-spain)
-* Basic Iconography Set in SVG format: set of icons you can use in your presentations and any other online/offline applications. [Browse icons here](../master/06-icons/01-icons-svg). [Download a ZIP file with all the icons](../master/06-icons/ij-icons-basic-svg.zip?raw=true) - Basic 
+* [Basic Iconography Set in SVG format](../master/06-icons/01-icons-svg): Set of icons you can use in your presentations and any other online/offline applications. [Download a ZIP file with all the icons here](../master/06-icons/ij-icons-basic-svg.zip?raw=true).
 * [InfoJobs Corporate Powerpoint Template (.ZIP ~5MB)] (../master/05-templates/01-powerpoint-corporate/_powerpoint-corporate.zip?raw=?true) - Use this powerpoint template as a base to build your own InfoJobs presentations. You will find a slide deck containing title and content layouts, charts, tables, etc.
 
 ***
