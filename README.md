@@ -1,6 +1,6 @@
 ![alt text](../master/03-onepage-style-guidelines/01-headers/01-github-header.png)
 
-<h2>**Downloads and Resources**</h2>
+<h2>Downloads and Resources</h2>
 * <strong>[InfoJobs Brand Manual (PDF ~2.3MB)](../master/01-brand-manual/01-brand-manual.pdf?raw=true)</strong>
 <br>This is the spanish version of our Brand Manual. Contains information on the use of the InfoJobs logo as well as the rest of our graphic elements and its various applications.</br>
 * <strong>[InfoJobs Logo (Spain)](../master/02-logos/01-ij-spain)</strong>
@@ -17,14 +17,14 @@
 
 ***
 
-<h2>**One-page style guidelines**</h2>
+<h2>One-page style guidelines</h2>
 * InfoJobs Style Guidelines: [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-empleo.png?raw=true) | [PSD (~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-empleo.psd)
 * "InfoJobs Executive" Style Guidelines: [PNG](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.png?raw=true) | [PSD (~12MB)](../master/03-onepage-style-guidelines/01-UI-style-guidelines-IJ-executive.psd) 
 * Iconography usage: [PNG](../master/03-onepage-style-guidelines/01-iconography-guidelines.png?raw=true) | [PSD (~7.6MB)](../master/03-onepage-style-guidelines/01-iconography-guidelines.psd)
 
 ***
 
-<h2>**Great places to find stock photos**</h2>
+<h2>Great places to find stock photos</h2>
 * [Stocksy](http://www.stocksy.com/)
 * [Dollar Photo Club](http://es.dollarphotoclub.com/)
 * [Pic Jumbo](http://picjumbo.com/)
