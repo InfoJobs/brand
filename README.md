@@ -3,10 +3,8 @@
 <h2>Downloads and Resources</h2>
 * <strong>[InfoJobs Brand Manual (PDF ~2.3MB)](../master/01-brand-manual/01-brand-manual.pdf?raw=true)</strong>
 <br>This is the spanish version of our Brand Manual. Contains information on the use of the InfoJobs logo as well as the rest of our graphic elements and its various applications.</br>
-* <strong>[InfoJobs Logo (Spain)](../master/02-logos/01-ij-spain)</strong>
-<br>This is our main logotype and it represents us. You are encouraged to use it on our website, brochures and elsewhere without altering it in any way. Refer to the Brand Manual to learn how to use it correctly.</br>  
-* <strong>[InfoJobs Logo (Italy)](../master/02-logos/02-ij-italy)</strong>
-<br>This is the italian version of our main logotype.</br>
+* <strong>[InfoJobs Logo](../master/02-logos/01-ij-spain)</strong>
+<br>This is our main logotype. You are encouraged to use it on our website, brochures and elsewhere without altering it in any way. Refer to the Brand Manual to learn how to use it correctly.</br>  
 * <strong>[SCM Spain Logo](../master/02-logos/03-scm-spain)</strong>
 <br>This is Schibsted Classified Media Spain's logo.</br>
 * <strong>[Basic Iconography Set in SVG format](../master/06-icons/01-icons-svg)</strong>
