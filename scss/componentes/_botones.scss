@@ -1,0 +1,66 @@
+
+
+
+
+
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+%btn {
+	display: inline-block;
+	line-height: $gap * 2;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+	white-space: nowrap;
+	border: none;
+	font-weight: normal;
+	cursor : pointer;
+	margin:0;
+	padding-top: 5px;
+   	padding-bottom: 0;
+   	padding-right: $gap;
+   	padding-left: $gap;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active,
+    &:focus {
+        outline: none;
+    }	
+}
+.btn {
+	@extend %btn;
+	color: $shiro;
+	background-color: $dayblue;
+	transition: all .5 ease-in;
+    
+    &.w100 {
+        width: 100%;
+    }
+
+    &:hover {
+		background-color: darken($dayblue, 5%);
+	}
+
+    &:visited {
+		color: $shiro;
+	}
+}
+
+.btn-link {
+	@extend %btn;
+	color: $dayblue;
+	background-color: $shiro;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+		color: $dayblue;
+	}
+
+}
