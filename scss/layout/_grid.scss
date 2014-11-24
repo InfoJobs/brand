@@ -19,8 +19,8 @@ $grid-size: 12;
     align-items: stretch;
   
     flex-wrap: wrap;
-    margin-right: -$gap-grid;
-    margin-left: -$gap-grid;
+    margin-right: -$gap-grid *2;
+    margin-left: -$gap-grid *2;
     
 }
 
@@ -41,7 +41,7 @@ $grid-size: 12;
             
         }
         
-        &:first-child {
+        /* &:first-child {
             .box-row {
                 padding-left: 0;
             }
@@ -51,7 +51,7 @@ $grid-size: 12;
             .box-row {
                 padding-right: 0;
             }
-        }
+        } */
         
         &.pull-right {
 			margin-right:  -($gap * 1.5);
