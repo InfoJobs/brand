@@ -8,13 +8,10 @@
 	text-transform: none;
 	line-height: 1;
 	position: relative;
-	//background-color: red;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
-	transition: all .5 ease-in;
 
 	&::after {
 		content: attr(data-name);
@@ -26,10 +23,14 @@
 		font-family: $basefontbold;
 		text-align: center;
 		opacity: 0;
+		-webkit-transition: all .15s ease-in;
+				transition: all .15s ease-in;
 	}
 	&:hover::after {
 		opacity: 1;
 		bottom: -$gap;
+		-webkit-transition: all .15s ease-in;
+				transition: all .15s ease-in;
 	}
 }
 
