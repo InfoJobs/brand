@@ -242,10 +242,14 @@ nav {
         font-size: 100px;
         margin: 0px 20px 20px;
         line-height: 100px;
+        -webkit-transition: all .15s ease-in;
+				transition: all .15s ease-in;
     
         &:hover{
             color: $shiro;
             cursor: pointer;
+            -webkit-transition: all .15s ease-in;
+				transition: all .15s ease-in;
         }
     }
     

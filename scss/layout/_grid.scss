@@ -44,18 +44,7 @@ $grid-size: 12;
             
         }
         
-        /* &:first-child {
-            .box-row {
-                padding-left: 0;
-            }
-        }
-
-        &:last-child {
-            .box-row {
-                padding-right: 0;
-            }
-        } */
-        
+       
         &.pull-right {
 			margin-right:  -($gap * 1.5);
 		}
