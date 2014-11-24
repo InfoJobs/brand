@@ -91,6 +91,7 @@ nav {
 	width: 100%;
 	background-color: rgba(255,255,255,0.95);
 	box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+	z-index: 101;
 	
 	.wrapper {
 		display: flex;
@@ -254,6 +255,131 @@ nav {
     
 }
 
+.download-block {
+	position: relative;
+	overflow: hidden;
+}
+
+.download-links {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	opacity: 0;
+
+	.download-content {
+		background-color: $shiro;
+		height: 351px;
+	}
+	h3 {
+		background-color: $dayblue;
+		color: $shiro;
+		text-align: center;
+		padding-right: 13px;
+		line-height: 40px;
+		font-size: 16px;
+		font-weight: normal;
+
+		a {
+			color: $shiro;
+			float: right;
+		}
+	}
+
+}
+	.formats {
+		list-style-type: none;
+		padding: 0;
+
+		li {
+			position: relative;
+			float: left;
+			height: 120px;
+			width: 50%;
+			text-align: center;
+			border-bottom: 1px solid #f2f2f2;
+			vertical-align: middle;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			font-family: $basefontbold;
+
+			&:nth-child(2n+1) {
+				border-right: 1px solid #f2f2f2;
+			}
+
+			&:hover {
+
+			}
+
+			&.pack {
+				width: 100%;
+				height: 72px;
+				border: none;
+				transition: all 4;
+				-webkit-transition: background-color .12s ease-in-out;
+				   -moz-transition: background-color .12s ease-in-out;
+					 -o-transition: background-color .12s ease-in-out;
+						transition: background-color .12s ease-in-out;
+
+				a {
+					height: auto;
+					width: auto;
+					background: none;
+
+
+				&:hover {
+					color: $dayblue;
+				}
+				}
+			}
+
+			a {
+				display: block;
+				background: url(../images/file.png) 0 0 no-repeat;
+				width: 52px;
+				line-height: 66px;
+				color: #aeaeae;
+
+				// Hit area
+				&::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+				}
+
+				&:hover {
+					background-position: -52px 0;
+					color: $shiro;
+					text-decoration: none;
+				}
+			}
+
+			span {
+				display: block;
+				color: #aeaeae;
+				margin-top: 12px;
+			}
+
+			&:hover span,
+			&.hover span {
+				color: $dayblue;
+			}
+
+			&.hover a {
+				background-position: -52px 0;
+				color: $shiro;
+				text-decoration: none;
+			}
+		}
+	}
+.white-fake,
+.white-fake:hover {
+	background-color: $shiro;
+}
 .footer {
 	padding: ($gap * 2)  ($gap * 2);
 	background-color: #2d3133;

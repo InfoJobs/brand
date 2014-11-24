@@ -10,42 +10,43 @@
  */
 $media-queries-supported : true;
 
-@import "contenido.scss";
+@import "contenido";
 
-@import "lib/variables.scss";
+@import "lib/variables";
 
-@import "lib/mixins.scss";
+@import "lib/mixins";
 
-@import "lib/placeholders.scss";
+@import "lib/placeholders";
 
-@import "componentes/reset.scss";
+@import "componentes/reset";
 
-@import "componentes/fuentes.scss";
+@import "componentes/fuentes";
 
-@import "componentes/links.scss";
+@import "componentes/links";
 
-@import "componentes/tablas.scss";
+@import "componentes/tablas";
 
-@import "componentes/botones.scss";
+@import "componentes/botones";
 
-@import "componentes/elementos.scss";
+@import "componentes/elementos";
 
-@import "componentes/tipografia.scss";
+@import "componentes/tipografia";
 
-@import "componentes/navegacion.scss";
+@import "componentes/navegacion";
 
-@import "componentes/paginacion.scss";
+@import "componentes/paginacion";
 
-@import "componentes/formularios.scss";
+@import "componentes/formularios";
 
-@import "layout/grid.scss";
+@import "layout/grid";
 
-@import "layout/sitio.scss";
+@import "layout/sitio";
 
-@import "lib/tools.scss";
+@import "lib/tools";
 
-@import "componentes/texturas.scss";
+@import "componentes/texturas";
 
-@import "layout/breakpoints.scss";
+@import "layout/breakpoints";
 
-// @import "debug.scss";  // Utilizado para comprobar que el marcado HTML no contenga errores
+@import "lib/transitions";
+
