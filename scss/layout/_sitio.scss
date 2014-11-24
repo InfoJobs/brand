@@ -77,6 +77,11 @@ body {
     background-color: $contengrey;
     margin-bottom: 10px;
     border: 1px solid $bordercolor;
+    overflow: hidden;
+    
+    img {
+        display: block;
+    }
     
 }
 
