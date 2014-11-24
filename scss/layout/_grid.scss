@@ -29,6 +29,9 @@ $grid-size: 12;
   	flex-grow: 1;
 }
 
+.justify-center {
+    justify-content: center;
+}
 
 @for $i from 1 to $grid-size + 1 {
 
