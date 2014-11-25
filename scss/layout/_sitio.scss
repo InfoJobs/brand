@@ -209,56 +209,6 @@ nav {
     
 }
 
-.content-blue {
-	padding: ($gap * 4)  ($gap * 2) ($gap * 8);
-	background-color: $dayblue;
-    
-	header {
-		text-align: center;
-		padding: 0 ($gap * 3) ($gap * 4);
-	}
-
-	h1 {
-		margin: 0 0 ($gap / 2) 0;
-        color: $shiro;
-	}
-
-	h3 {
-		@include font-size(18);
-		color: $shiro;
-	}
-    
-    ul {
-        display: inline-block;
-        list-style: none;
-        text-align: center;
-        color: #00699b;
-        width: 100%;
-    }
-    
-    li {
-        display: inline-block;
-        text-align: center;
-        font-size: 100px;
-        margin: 0px 20px 20px;
-        line-height: 100px;
-        -webkit-transition: all .15s ease-in;
-				transition: all .15s ease-in;
-    
-        &:hover{
-            color: $shiro;
-            cursor: pointer;
-            -webkit-transition: all .15s ease-in;
-				transition: all .15s ease-in;
-        }
-    }
-    
-    .btn-link{
-        margin-top: 40px;
-    }
-    
-}
-
 .download-block {
 	position: relative;
 	overflow: hidden;
@@ -275,18 +225,34 @@ nav {
 		height: 351px;
 	}
 	h3 {
+        position: relative; 
 		background-color: $dayblue;
 		color: $shiro;
 		text-align: center;
-		padding-right: 13px;
 		line-height: 40px;
 		font-size: 16px;
 		font-weight: normal;
-
+        
 		a {
+            position: absolute;
 			color: $shiro;
-			float: right;
+            text-decoration: none;
+            right: 10px;
 		}
+        
+        span{
+            line-height: 40px;
+            font-size: 18px;
+            color: darken($dayblue, 25%);
+            -webkit-transition: all 150ms ease;
+				transition: all 150ms ease;
+            
+            &:hover{
+                color: $shiro;
+                -webkit-transition: all 150ms ease;
+				transition: all 150ms ease;
+            }
+        }
 	}
 
 }
@@ -313,6 +279,7 @@ nav {
 			}
 
 			&:hover {
+                background-color: #f9f9f9;
 
 			}
 
@@ -344,6 +311,7 @@ nav {
 				width: 52px;
 				line-height: 66px;
 				color: #aeaeae;
+            
 
 				// Hit area
 				&::before {
@@ -380,16 +348,68 @@ nav {
 			}
 		}
 	}
-.white-fake,
-.white-fake:hover {
-	background-color: $shiro;
+
+
+//////////////////////////////////////////
+//      Iconitos        //
+//////////////////////////////////////////
+.content-blue {
+	padding: ($gap * 4)  ($gap * 2) ($gap * 8);
+	background-color: $dayblue;
+    
+	header {
+		text-align: center;
+		padding: 0 ($gap * 3) ($gap * 4);
+	}
+
+	h1 {
+		margin: 0 0 ($gap / 2) 0;
+        color: $shiro;
+	}
+
+	h3 {
+		@include font-size(18);
+		color: $shiro;
+	}
+    
+    ul {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        color: #00699b;
+        width: 100%;
+    }
+    
+    li {
+        display: inline-block;
+        text-align: center;
+        font-size: 60px;
+        margin: 0px ($gap * 1.2) ($gap * 2.5);
+        line-height: 40px;
+        -webkit-transition: all 150ms ease;
+				transition: all 150ms ease;
+    
+        &:hover{
+            color: $shiro;
+            cursor: pointer;
+            -webkit-transition: all 150ms ease;
+				transition: all 150ms ease;
+        }
+    }
+    
+    .btn-link{
+        margin-top: 40px;
+    }
+    
 }
+
+
 .footer {
-	padding: ($gap * 2)  ($gap * 2);
+	padding: $gap $gap;
 	background-color: #2d3133;
     
 	p {
-		@include font-size(18);
+		@include font-size(16);
 		color: $softscript;
         text-align: center;
 	}
