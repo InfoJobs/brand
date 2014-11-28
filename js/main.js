@@ -56,7 +56,7 @@
 
 	var SCROLL_TIME = 500,
 		SCROLL_STEPS = 40,
-		SCROLL_OSCILATION = 0.01;
+		SCROLL_OSCILATION = 0.1;
 
 	function scrollHref(elem) {
 	    while (elem.tagName != 'BODY' && elem.className.indexOf('scroll') == -1)
