@@ -77,6 +77,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/logo-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13737,
+		"inputAbbreviatedPath": "\/images\/logo-color.png",
+		"outputAbbreviatedPath": "\/images\/logo-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-photo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117197,
+		"inputAbbreviatedPath": "\/images\/logo-photo.png",
+		"outputAbbreviatedPath": "\/images\/logo-photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13399,
+		"inputAbbreviatedPath": "\/images\/logo-white.png",
+		"outputAbbreviatedPath": "\/images\/logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/papel.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -604,7 +637,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -622,7 +655,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Alex Bailon",
+"lastSavedByUser": "Joan Leon",
 "manualImportLinks": {
 	},
 "projectAttributes": {
