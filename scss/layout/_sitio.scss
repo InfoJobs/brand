@@ -111,6 +111,10 @@ nav {
 			a {
 				color: $darksilk;
 				
+				&:visited {
+					color: $darksilk;
+				}
+				
 				&.current,
 				&:hover {
 					text-decoration: none;
