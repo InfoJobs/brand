@@ -292,10 +292,10 @@ nav {
 				height: 72px;
 				border: none;
 				transition: all 4;
-				-webkit-transition: background-color .12s ease-in-out;
-				   -moz-transition: background-color .12s ease-in-out;
-					 -o-transition: background-color .12s ease-in-out;
-						transition: background-color .12s ease-in-out;
+				-webkit-transition: background-color 120ms ease-in-out;
+				   -moz-transition: background-color 120ms ease-in-out;
+					 -o-transition: background-color 120ms ease-in-out;
+						transition: background-color 120ms ease-in-out;
 
 				a {
 					height: auto;
