@@ -66,35 +66,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/logo-color.png": {
+	"\/images\/logo-app.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13769,
-		"inputAbbreviatedPath": "\/images\/logo-color.png",
-		"outputAbbreviatedPath": "\/images\/logo-color.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-photo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 117360,
-		"inputAbbreviatedPath": "\/images\/logo-photo.png",
-		"outputAbbreviatedPath": "\/images\/logo-photo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8182,
-		"inputAbbreviatedPath": "\/images\/logo-white.png",
-		"outputAbbreviatedPath": "\/images\/logo-white.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logo-app.png",
+		"outputAbbreviatedPath": "\/images\/logo-app.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -644,7 +622,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Joan Leon",
+"lastSavedByUser": "Alex Bailon",
 "manualImportLinks": {
 	},
 "projectAttributes": {
