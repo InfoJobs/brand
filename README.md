@@ -1,7 +1,7 @@
 ![alt text](../master/_header/01-github-header.jpg)
 
 <h2>NEW</h2>
-We have a new github page with some useful resources you will need to apply the InfoJobs brand consistently. [Go there to donwload to check and download them](http://infojobs.github.io/brand/)
+We have a new github page with some useful resources you will need to apply the InfoJobs brand consistently. [Download them here...](http://infojobs.github.io/brand/)
 
 If you have any question, send us an email to [design@infojobs.net] (mailto:design@infojobs.net)
 
