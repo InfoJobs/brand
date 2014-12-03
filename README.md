@@ -1,4 +1,4 @@
-![alt text](../master/_header/01-github-header.jpg)
+![alt text](../master/_gh-header/01-gh-header.jpg)
 
 <h2>NEW</h2>
 We have a new github page with some useful resources you will need to apply the InfoJobs brand consistently. [Download them here...](http://infojobs.github.io/brand/)
