@@ -78,9 +78,6 @@ address {
     @include font-size(16);
 	@include line-height(20);
 
-	&:last-child {
-		margin-bottom: 0;
-	}
 }
 
 .intro {

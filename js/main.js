@@ -146,3 +146,46 @@
 	}
 
 })(document, window);
+
+$(".gallery").fancybox({
+    loop : true,
+    arrows : true,
+    autoSize : true,
+    nextEffect  : 'elastic',
+    prevEffect  : 'elastic',
+    padding     : 10,
+    margin      : [15, 15, 60, 15],
+    afterLoad   : addLinks,
+    beforeClose : removeLinks,
+    
+    helpers : {
+        overlay : {
+            css : {
+                'background' : 'rgba(0, 0, 0, 0.8)'
+            }
+        },
+        title   : null,
+        
+    }
+    
+});
+
+function addLinks() {
+    var list = $(".bullets");
+    
+    if (!list.length) {    
+        list = $('<ul class="bullets">');
+    
+        for (var i = 0; i < this.group.length; i++) {
+            $('<li data-index="' + i + '"><label></label></li>').click(function() { $.fancybox.jumpto( $(this).data('index'));}).appendTo( list );
+        }
+        
+        list.appendTo( 'body' );
+    }
+
+    list.find('li').removeClass('active').eq( this.index ).addClass('active');
+}
+
+function removeLinks() {
+    $(".bullets").remove();    
+}
