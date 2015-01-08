@@ -119,7 +119,9 @@
 	@extend %btn;
 	color: $dayblue;
 	background-color: $shiro;
-    
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
     span {
         position: relative;
         display: inline-block;

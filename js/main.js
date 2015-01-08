@@ -113,7 +113,7 @@
 	    var height = _get.WindowHeight(),
 	    	scroll = _get.Scroll(),
 	    	fix = (height - 40) > scroll,
-	    	SE = ['_manual', '_logos', '_icons', '_templates', '_kit'],
+	    	SE = ['_manual', '_logos', '_icons', '_android', '_templates', '_kit'],
 	    	position = 0;
 
 	    for (var k in SE) {
@@ -136,7 +136,7 @@
 	    setHeaderFixed();
 	});
 
-	var aLinks = ['top','manual','logos','icons','templates','kit'];
+	var aLinks = ['top','manual','logos','icons','android','templates','kit'];
 	for( var i in aLinks ) {
 		_(aLinks[i]).addEventListener('click', function(e){
 			e.preventDefault();
@@ -189,3 +189,17 @@ function addLinks() {
 function removeLinks() {
     $(".bullets").remove();    
 }
+
+
+
+$('.test').slick({
+    centerMode      : true,
+    centerPadding   : '201px',
+    slidesToShow    : 3,
+    infinite        : true,
+    autoplay        : true,
+    arrows          : false,
+    accessibility   : false,
+    draggable       : false,
+    pauseOnHover    : false,
+});

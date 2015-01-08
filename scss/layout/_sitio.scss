@@ -257,6 +257,9 @@ nav {
     
 }
 
+.over {
+    overflow: hidden;
+}
 .download-block {
 	position: relative;
 	overflow: hidden;
@@ -433,15 +436,25 @@ nav {
         display: inline-block;
         text-align: center;
         font-size: 60px;
-        margin: 0px ($gap * 1.2) ($gap * 2.5);
-        line-height: 40px;
+        margin: 0px ($gap * 1.5) ($gap * 2.5);
+        line-height: 60px;
+        width: 60px;
+        height: 60px;
         -webkit-transition: all 150ms ease;
 				transition: all 150ms ease;
+        
+        -ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
     
         &:hover{
             color: $shiro;
             -webkit-transition: all 150ms ease;
 				transition: all 150ms ease;
+            
+            -ms-transform: scale(1);
+            -webkit-transform: scale(1);
+            transform: scale(1);
         }
     }
     
@@ -545,6 +558,44 @@ nav {
 
 
 
+.slick-img {
+    opacity: 0.3;
+    margin: 55px -10px 107px;
 
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:    0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    box-shadow:         0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    
+    -webkit-transition: all 300ms ease;
+               -moz-transition: all 300ms ease;
+                 -o-transition: all 300ms ease;
+                    transition: all 300ms ease;
+}
+.slick-center {
+    opacity: 1;
+    
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    
+    -webkit-transition: all 300ms ease;
+               -moz-transition: all 300ms ease;
+                 -o-transition: all 300ms ease;
+                    transition: all 300ms ease;
+}
+
+.mobile-android {
+    position: absolute;
+    width: 314px;
+    height: 633px;
+    left: 50%;
+    margin-left: -157px;
+    background: url(../images/mobile-android.png);
+    z-index: 99;
+}
 
 
