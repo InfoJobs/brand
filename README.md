@@ -1,6 +1,6 @@
 ![alt text](../master/_gh-header/01-gh-header.jpg)
 
-<h2>WE HAVE A **NEW** GITHUB PAGE</h2>
+<h2>WE HAVE A **NEW** BRANDING WEBSITE!</h2>
 [Follow this link](http://infojobs.github.io/brand/) to access all the brand content in this repository easier.
 
 If you have any questions and/or suggestions, please send us an email to [design@infojobs.net] (mailto:design@infojobs.net)
