@@ -20,6 +20,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -27,6 +36,17 @@
 		"initialSize": 1295,
 		"inputAbbreviatedPath": "\/favicon.png",
 		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/!referencia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05304e+06,
+		"inputAbbreviatedPath": "\/images\/!referencia.png",
+		"outputAbbreviatedPath": "\/images\/!referencia.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -42,101 +62,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/capturas-android\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115792,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/1.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77165,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/2.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67199,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/3.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77067,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/4.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 68704,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/5.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 97282,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/6.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73853,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/7.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/capturas-android\/8.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52363,
-		"inputAbbreviatedPath": "\/images\/capturas-android\/8.jpg",
-		"outputAbbreviatedPath": "\/images\/capturas-android\/8.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/ejem-android.png": {
+	"\/images\/corporativo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25304,
-		"inputAbbreviatedPath": "\/images\/ejem-android.png",
-		"outputAbbreviatedPath": "\/images\/ejem-android.png",
+		"initialSize": 14213,
+		"inputAbbreviatedPath": "\/images\/corporativo.png",
+		"outputAbbreviatedPath": "\/images\/corporativo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ejem-empleo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28198,
+		"inputAbbreviatedPath": "\/images\/ejem-empleo.jpg",
+		"outputAbbreviatedPath": "\/images\/ejem-empleo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -152,6 +95,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ejem-executive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25849,
+		"inputAbbreviatedPath": "\/images\/ejem-executive.jpg",
+		"outputAbbreviatedPath": "\/images\/ejem-executive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ejem-executive.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -159,6 +113,17 @@
 		"initialSize": 167412,
 		"inputAbbreviatedPath": "\/images\/ejem-executive.png",
 		"outputAbbreviatedPath": "\/images\/ejem-executive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ejem-freelance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30882,
+		"inputAbbreviatedPath": "\/images\/ejem-freelance.jpg",
+		"outputAbbreviatedPath": "\/images\/ejem-freelance.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -185,6 +150,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ejem-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20620,
+		"inputAbbreviatedPath": "\/images\/ejem-product.jpg",
+		"outputAbbreviatedPath": "\/images\/ejem-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ejem-product.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -192,17 +168,6 @@
 		"initialSize": 102687,
 		"inputAbbreviatedPath": "\/images\/ejem-product.png",
 		"outputAbbreviatedPath": "\/images\/ejem-product.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/email.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 290662,
-		"inputAbbreviatedPath": "\/images\/email.png",
-		"outputAbbreviatedPath": "\/images\/email.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -229,13 +194,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/imagenes1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77318,
+		"inputAbbreviatedPath": "\/images\/imagenes1.jpg",
+		"outputAbbreviatedPath": "\/images\/imagenes1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/infojobs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2773,
+		"inputAbbreviatedPath": "\/images\/infojobs.png",
+		"outputAbbreviatedPath": "\/images\/infojobs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-app.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 4374,
 		"inputAbbreviatedPath": "\/images\/logo-app.png",
 		"outputAbbreviatedPath": "\/images\/logo-app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-base.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6453,
+		"inputAbbreviatedPath": "\/images\/logo-base.png",
+		"outputAbbreviatedPath": "\/images\/logo-base.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -247,6 +245,17 @@
 		"initialSize": 13737,
 		"inputAbbreviatedPath": "\/images\/logo-color.png",
 		"outputAbbreviatedPath": "\/images\/logo-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-invertido.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9844,
+		"inputAbbreviatedPath": "\/images\/logo-invertido.png",
+		"outputAbbreviatedPath": "\/images\/logo-invertido.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -273,24 +282,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/mobile-android.png": {
+	"\/images\/newsletter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9520,
-		"inputAbbreviatedPath": "\/images\/mobile-android.png",
-		"outputAbbreviatedPath": "\/images\/mobile-android.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/papel.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 130114,
-		"inputAbbreviatedPath": "\/images\/papel.png",
-		"outputAbbreviatedPath": "\/images\/papel.png",
+		"initialSize": 5038,
+		"inputAbbreviatedPath": "\/images\/newsletter.png",
+		"outputAbbreviatedPath": "\/images\/newsletter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -299,9 +297,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73840,
+		"initialSize": 199725,
 		"inputAbbreviatedPath": "\/images\/powerpoint.png",
 		"outputAbbreviatedPath": "\/images\/powerpoint.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/psds.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3397,
+		"inputAbbreviatedPath": "\/images\/psds.png",
+		"outputAbbreviatedPath": "\/images\/psds.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -338,6 +347,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/js\/jquery.fancybox.js": {
 		"fileType": 64,
@@ -378,6 +396,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/mousetrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/mousetrap.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/mousetrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -426,18 +455,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"outputAbbreviatedPath": "\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/_contenido.scss": {
 		"createSourceMap": 0,
@@ -727,6 +744,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/layout\/_sitio.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scss\/layout\/_sitio.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_sitio.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/lib\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -808,7 +841,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -818,7 +851,7 @@
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -873,14 +906,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "sergi.vila",
+"lastSavedByUser": "Alex Bailon",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "brand",
+	"displayValue": "_html",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_darkGray"
+	"iconImageName": "compass_yellow"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

@@ -23,6 +23,7 @@
     padding: 0 20px;
 	padding-top: 3px;
    	padding-bottom: 0;
+    margin-top: 10px;
     overflow: hidden;
     -webkit-transition: all 200ms ease;
        -moz-transition: all 200ms ease;
@@ -48,6 +49,7 @@
      
     &.w100 {
         width: 100%;
+        min-width: 100%;
     }
     
     
@@ -119,7 +121,7 @@
 	@extend %btn;
 	color: $dayblue;
 	background-color: $shiro;
-    max-width: 250px;
+    width: 100%;
     display: block;
     margin: 0 auto;
     span {

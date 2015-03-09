@@ -77,7 +77,7 @@ $animationtime :      .8s;
  * $altfont para textos alternativos, como citas, intro, etc...
  * $codefont para código
  */
-$basefont : "Proximanovalight", Helvetica, Arial, sans-serif;
+$basefont : "Proximanova", Helvetica, Arial, sans-serif;
 $basefontbold : "Proximanovasemibold", Helvetica, Arial, sans-serif;
 $altfont : Georgia, Times, "Times New Roman";
 $codefont : "Courier New", monospace;
@@ -119,12 +119,17 @@ $dayblue        : #2088c2;
 $darksilk       : #2d3133;
 $midscript      : #666666;
 $softscript     : #999999;
-$contengrey     : #f2f2f2;
+$darkshiro      : #f2f2f2;
+$darkestshiro   : #e2e5e6;
+$contengrey    : #f2f2f4;
 
 $basecolor      : $dayblue; 
 $basecolor-light: $contengrey;
 $secondary      : $darksilk; 
-$bordercolor    : #dedede; 
+$bordercolor    : #dedede;
+
+// Bamboo
+$bamboo			: #00a550;
 
 /**
  * Escala de grises

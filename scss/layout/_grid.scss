@@ -19,8 +19,8 @@ $grid-size: 12;
     align-items: stretch;
   
     // flex-wrap: wrap;
-    margin-right: -$gap-grid *2;
-    margin-left: -$gap-grid *2;
+    margin-right: -$gap-grid;
+    margin-left: -$gap-grid;
     
 }
 
@@ -40,7 +40,7 @@ $grid-size: 12;
 
 
 		.box-row {
-            padding: 0 $gap-grid;
+            padding: 0 10px;
             
         }
         

@@ -35,34 +35,40 @@ h3 small {
 	color : $grey;
 }
 
-h1,
-.h1 {
-    font-family: 'Proximanovasemibold';
-	@include font-size(35);
-	@include line-height(37);
-    margin-bottom: 30px;
-}
 
-h2,
-.h2 {
-	@include font-size(25);
-	@include line-height(28);
-    margin-bottom: 15px;
-}
 
-h3,
-.h3 {
-    font-family: 'Proximanovalight';
-	@include font-size(18);
-	@include line-height(22);
-}
-h4,
-.h4 {
+.xxxlarge{
     font-family: 'Proximanovasemibold';
-	@include font-size(18);
-	@include line-height(22);
+	@include font-size(36);
+	@include line-height(39);
     margin-bottom: 10px;
 }
+.xxlarge{
+    font-family: 'Proximanovasemibold';
+	@include font-size(30);
+	@include line-height(33);
+    margin-bottom: 10px;
+}
+.xlarge{
+    font-family: 'Proximanovasemibold';
+	@include font-size(25);
+	@include line-height(28);
+    margin-bottom: 10px;
+}
+.large{
+    font-family: 'Proximanovasemibold';
+	@include font-size(20);
+	@include line-height(23);
+    margin-bottom: 10px;
+}
+.medium{
+    font-family: 'Proximanovasemibold';
+	@include font-size(18);
+	@include line-height(21);
+    margin-bottom: 10px;
+}
+
+
 
 
 
@@ -164,7 +170,7 @@ abbr[title] {
 }
 
 b, strong {
-	font-weight : bold;
+	font-family: 'Proximanovasemibold';
 }
 
 dfn {

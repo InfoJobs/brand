@@ -39,126 +39,258 @@
 	}
 }
 
-.iconfont-ArrowDown::before {
+.iconfont-ArrowDown:before {
 	content: "\e600";
 }
-.iconfont-ArrowLeft::before {
+
+.iconfont-ArrowLeft:before {
 	content: "\e601";
 }
-.iconfont-ArrowUp::before {
+
+.iconfont-ArrowUp:before {
 	content: "\e602";
 }
-.iconfont-Arrow::before {
+
+.iconfont-Arrow:before {
 	content: "\e603";
 }
-.iconfont-BurguerMenu::before {
+
+.iconfont-BurguerMenu:before {
 	content: "\e604";
 }
-.iconfont-Calendar::before {
+
+.iconfont-Calendar:before {
 	content: "\e605";
 }
-.iconfont-Candidaturas::before {
+
+.iconfont-Candidaturas:before {
 	content: "\e606";
 }
-.iconfont-Category::before {
+
+.iconfont-Category:before {
 	content: "\e607";
 }
-.iconfont-Check::before {
+
+.iconfont-Check:before {
 	content: "\e608";
 }
-.iconfont-Clock::before {
+
+.iconfont-Clock:before {
 	content: "\e609";
 }
-.iconfont-Close::before {
+
+.iconfont-Close:before {
 	content: "\e60a";
 }
-.iconfont-Company::before {
+
+.iconfont-Company:before {
 	content: "\e60b";
 }
-.iconfont-Config::before {
+
+.iconfont-Config:before {
 	content: "\e60c";
 }
-.iconfont-CV::before {
+
+.iconfont-CV:before {
 	content: "\e60d";
 }
-.iconfont-Euro::before {
+
+.iconfont-Euro:before {
 	content: "\e60e";
 }
-.iconfont-Facebook::before {
+
+.iconfont-Facebook:before {
 	content: "\e60f";
 }
-.iconfont-GooglePlus::before {
+
+.iconfont-GooglePlus:before {
 	content: "\e610";
 }
-.iconfont-Location::before {
+
+.iconfont-Location:before {
 	content: "\e611";
 }
-.iconfont-Mail::before {
+
+.iconfont-Mail:before {
 	content: "\e612";
 }
-.iconfont-Reload::before {
+
+.iconfont-Reload:before {
 	content: "\e613";
 }
-.iconfont-Search::before {
+
+.iconfont-Search:before {
 	content: "\e614";
 }
-.iconfont-State::before {
+
+.iconfont-State:before {
 	content: "\e615";
 }
-.iconfont-Suitecase::before {
+
+.iconfont-Suitecase:before {
 	content: "\e616";
 }
-.iconfont-Twitter::before {
+
+.iconfont-Twitter:before {
 	content: "\e617";
 }
-.iconfont-User::before {
+
+.iconfont-User:before {
 	content: "\e618";
 }
-.iconfont-LinkedIn::before {
+
+.iconfont-LinkedIn:before {
 	content: "\e619";
 }
-.iconfont-Viewdetails::before {
+
+.iconfont-Viewdetails:before {
 	content: "\e61a";
 }
-.iconfont-EditCv::before {
+
+.iconfont-EditCv:before {
 	content: "\e61b";
 }
-.iconfont-Home::before {
+
+.iconfont-Home:before {
 	content: "\e61c";
 }
-.iconfont-QR::before {
+
+.iconfont-QR:before {
 	content: "\e61d";
 }
-.iconfont-Config-alt::before {
+
+.iconfont-Config-alt:before {
 	content: "\e61e";
 }
-.iconfont-Edit::before {
+
+.iconfont-Edit:before {
 	content: "\e61f";
 }
-.iconfont-Help::before {
+
+.iconfont-Help:before {
 	content: "\e620";
 }
-.iconfont-Info::before {
+
+.iconfont-Info:before {
 	content: "\e621";
 }
-.iconfont-Plus::before {
+
+.iconfont-Plus:before {
 	content: "\e622";
 }
-.iconfont-Smile::before {
+
+.iconfont-Smile:before {
 	content: "\e623";
 }
-.iconfont-Wifi::before {
+
+.iconfont-Wifi:before {
 	content: "\e624";
 }
-.iconfont-Alert::before {
+
+.iconfont-Alert:before {
 	content: "\e625";
 }
-.iconfont-Connect::before {
+
+.iconfont-Connect:before {
 	content: "\e626";
 }
-.iconfont-AlertProfile::before {
+
+.iconfont-AlertProfile:before {
 	content: "\e627";
 }
-.iconfont-Hide::before {
+
+.iconfont-Hide:before {
 	content: "\e628";
+}
+
+.iconfont-News:before {
+	content: "\e629";
+}
+
+.iconfont-Flag:before {
+	content: "\e62a";
+}
+
+.iconfont-Offers:before {
+	content: "\e62b";
+}
+
+.iconfont-Big-check:before {
+	content: "\e62c";
+}
+
+.iconfont-BigArrowDown:before {
+	content: "\e62d";
+}
+
+.iconfont-BigArrowLeft:before {
+	content: "\e62e";
+}
+
+.iconfont-BigArrowUp:before {
+	content: "\e62f";
+}
+
+.iconfont-BigArrowRight:before {
+	content: "\e630";
+}
+
+.iconfont-BigArrowObliqueLeftDown:before {
+	content: "\e631";
+}
+
+.iconfont-BigArrowObliqueRightDown:before {
+	content: "\e632";
+}
+
+.iconfont-BigArrowObliqueLeftUp:before {
+	content: "\e633";
+}
+
+.iconfont-BigArrowObliqueRightUp:before {
+	content: "\e634";
+}
+
+.iconfont-Star:before {
+	content: "\e635";
+}
+
+.iconfont-Lock:before {
+	content: "\e636";
+}
+
+.iconfont-Menumore:before {
+	content: "\e637";
+}
+
+.iconfont-Alert-circle:before {
+	content: "\e638";
+}
+
+.iconfont-Save:before {
+	content: "\e639";
+}
+
+.iconfont-SaveAs:before {
+	content: "\e63a";
+}
+
+.iconfont-OneTime:before {
+	content: "\e63b";
+}
+
+.iconfont-Applications:before {
+	content: "\e63c";
+}
+
+.iconfont-Attach:before {
+	content: "\e63d";
+}
+
+.iconfont-Phone:before {
+	content: "\e63e";
+}
+
+.iconfont-Website:before {
+	content: "\e63f";
 }
