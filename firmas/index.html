@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Infojobs Mail Signature</title>
+    <style id="app-css">
+        body{
+            margin:0; padding:0;
+            background-color: #e2e5e6;
+        }
+        textarea:focus,
+        input:focus {
+            outline: 0;
+        }
+        *:focus {
+            outline: 0;
+        }
+        .config {
+            margin: 0;
+            padding:0;
+        }
+        #signature {
+            background-color: #fff;
+        }
+        .config-bottom {
+            padding: 23px;
+            background-color: #d6e3eb;
+        }
+        ul {
+            padding: 23px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            margin: 0;
+            position: relative;
+        }
+
+        input {
+            background-color: #ffffff;
+            color: #2d3133;
+            border: 1px solid #c7c7c7;
+            font-size: 14px;
+            padding: 6px 8px;
+            margin-bottom: 10px;
+			width: 230px;
+        }
+
+        .config button {
+            position: absolute;
+            top: 3px;
+            background-color: #2088c2;
+            border: 0px solid #2088c2;
+            border-radius: 100px;
+            color: #dee7ec;
+            line-height: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        h3 {
+            font-family: arial, sans-serif;
+            font-size: 23px;
+            color: #2d3133;
+            margin-left: 20px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+	</style>
+
+</head>
+<body>
+    <div id="config" class="config">
+        <ul>
+            <li>
+                <input type="text" id="iName" placeholder="Nombre y Apellidos" data-target="name">
+            </li>
+            <li>
+                <input type="text" id="iJobTitle" placeholder="Cargo" data-target="jobTitle">
+            </li>
+            <li>
+                <input type="text" id="iPhone" placeholder="Teléfono" data-target="phoneValue" data-url="true" data-phone="true">
+                <button id="btnPhone" data-input="iPhone" data-element="phone" data-status="On" tabindex="-1">On</button>
+            </li>
+            <li>
+                <input type="text" id="iMobile" placeholder="Móvil" data-target="mobileValue" data-url="true" data-phone="true">
+                <button id="btnMobile" data-input="iMobile" data-element="mobile" data-status="On" tabindex="-1">On</button>
+            </li>
+            <li>
+                <input type="text" id="iSkype" placeholder="ID Skype" data-target="skypeValue" data-skype="true" data-url="true">
+                <button id="btnSkype" data-input="iSkype" data-element="skype" data-status="On" tabindex="-1">On</button>
+            </li>
+            <li>
+                <input type="text" id="iFacebook" placeholder="URL completa de Facebook" data-target="facebookValue" data-url="true">
+                <button id="btnFacebook" data-input="iFacebook" data-element="facebook" data-status="On" tabindex="-1">On</button>
+            </li>
+            <li>
+                <input type="text" id="iTwitter" placeholder="ID de Twitter, ej: @infojobs" data-target="twitterValue" data-twitter="true" data-url="true">
+                <button id="btnTwitter" data-input="iTwitter" data-element="twitter" data-status="On" tabindex="-1">On</button>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="signature" class="signature" style="padding: 30px 23px;">
+        <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="margin:0; padding:0; line-height: 100% !important;font-family: Arial, sans-serif;">
+            <tr>
+                <td valign="top" class="signature">
+                    <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="margin:0; padding:0; line-height: 100% !important;">
+						<tr>
+							<td>
+			                    <h1 id="name" style="font-family: helvetica, arial, sans-serif;font-size: 20px;margin: 0 0 5px 0;color: #2088c2;line-height: 20px;">Nombre Apellidos</h1>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h2 id="jobTitle" style="font-family: helvetica, arial, sans-serif;font-size: 14px;color: #00a550;margin-bottom: 4px;line-height: 16px;margin: 0 0 4px 0;">Cargo</h2>
+							</td>
+						</tr>
+						<tr id="phone">
+							<td>
+								<a id="phoneValue" style="font-family: helvetica, arial, sans-serif;font-size: 11px;text-decoration: none;margin-bottom: 3px;line-height: 13px;color:#666;" href="tel:">(+34) 9...</a>
+							</td>
+						</tr>
+						<tr>
+							<td id="mobile">
+								<a id="mobileValue" style="font-family: helvetica, arial, sans-serif;font-size: 11px;text-decoration: none;margin-bottom: 3px;line-height: 13px;color:#666;" href="tel:" >(+34) 6...</a>
+							</td>
+						</tr>
+						<tr>
+							<td id="skype" >
+								<a id="skypeValue" style="font-family: helvetica, arial, sans-serif;font-size: 11px;text-decoration: none;margin-bottom: 3px;line-height: 13px;color:#666;" href=""><span>(skype)</span> id_skype</a>
+							</td>
+						</tr>
+						<tr>
+							<td id="facebook">
+								<a id="facebookValue" style="font-family: helvetica, arial, sans-serif;font-size: 11px;text-decoration: underline;margin-bottom: 3px;line-height: 13px;color: #666" href="">Facebook</a>
+							</td>
+						</tr>
+						<tr>
+							<td id="twitter">
+								<a id="twitterValue" style="font-family: helvetica, arial, sans-serif;font-size: 11px;text-decoration: underline;margin-bottom: 3px;line-height: 13px;color: #666" href="">Twitter</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0; width: 275px;">
+									<tr>
+										<td>
+											<hr style="margin: 20px 0 15px 0; border-top: 1px solid #ddd; border-bottom:0; border-right:0; border-left: 0;">
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding-bottom: 10px;">
+								<strong style="font-family: helvetica, arial, sans-serif;font-size:16px;color:#2088c2;">InfoJobs</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="http://orientacion-laboral.infojobs.net/contratos-infojobs-2013" target="_blank" style="font-family: helvetica, arial, sans-serif;line-height: 20px;font-size: 11px;text-decoration: underline;padding-top: 1px;color: #a7a7a7;">712.533 alegrías :)</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p style="font-family: helvetica, arial, sans-serif;line-height: 15px;font-size: 10px;margin: 0;color: #a7a7a7;margin-top: 7px;">RESPETEMOS EL MEDIO AMBIENTE: ¿Necesitas realmente imprimir este mail?<br/>CONFIDENCIALIDAD: Este mail es confidencial y para uso exclusivo de su destinatario.</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding-top:12px;">
+								<strong style="font-family: helvetica, arial, sans-serif;font-size:13px;color:#5e5e5e; font-weight:bold;">SCHIBSTED</strong>
+								<span style="font-size: 13px; color: rgb(133, 131, 131); font-family: helvetica, arial, sans-serif;">CLASSIFIED MEDIA SPAIN</span>
+               				</td>
+						</tr>
+               		</table>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+<script>
+(function(d){
+    // Inputs ---------------------------------------------
+    var inputs = d.querySelectorAll('#config input');
+    for (var i = 0; i < inputs.length; i++ ) {
+        inputs[i].addEventListener('keyup', function(e){
+            e.preventDefault;
+            var _target = d.getElementById(e.target.dataset.target);
+            if(e.target.dataset.url == 'true' && e.target.value != '') {
+                if(e.target.dataset.phone == 'true') {
+                    _target.href = 'tel:' + e.target.value;
+                    _target.innerHTML = e.target.value;
+
+                } else if(e.target.dataset.skype == 'true') {
+                    _target.href = 'skype:' + e.target.value + '?call';
+                    _target.innerHTML = '(skype) ' + e.target.value;
+                } else if(e.target.dataset.twitter == 'true') {
+                    var idTwitter = e.target.value.replace('@','');
+                    _target.href = 'https://twitter.com/' + idTwitter;
+                    _target.innerHTML = e.target.value;
+                } else {
+                    var http_regex = /\b(http|https)/.test(e.target.value);
+                    if (http_regex) {
+                        _target.href = e.target.value;
+                    } else {
+                        _target.href = 'http://' + e.target.value;
+                    }
+                }
+            } else {
+                if(e.target.value != '') {
+                    _target.innerHTML = e.target.value;
+                }
+            }
+        }, false);
+    }
+
+
+    // Buttons --------------------------------------------
+    var buttons = d.querySelectorAll('#config button');
+    for (var i = 0; i < buttons.length; i++ ) {
+        buttons[i].addEventListener('click', function(e){
+            e.preventDefault;
+            var _input = d.getElementById(e.target.dataset.input);
+            var _element = d.getElementById(e.target.dataset.element);
+            if( e.target.dataset.status == 'On') {
+                e.target.dataset.status = 'Off';
+                e.target.innerHTML = 'Off';
+                e.target.style.backgroundColor = '#93b8cf';
+                _input.disabled = true;
+                _input.style.opacity = 0.4;
+                //_element.style.display = 'none';
+                _element.hidden = true;
+            }else {
+                e.target.dataset.status = 'On';
+                e.target.innerHTML = 'On';
+                e.target.style.backgroundColor = '#208cc2';
+                _input.disabled = false;
+                _input.style.opacity = 1;
+                //_element.style.display = 'block';
+                _element.hidden = false;
+            }
+        });
+    }
+
+})(document);
+</script>
+</body>
+</html>
+<!--
+    June 2014 | joan.leon@infojobs.net
+-->
