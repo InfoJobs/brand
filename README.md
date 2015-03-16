@@ -1,4 +1,4 @@
-<a href="https://github.com/InfoJobs/visual-design/tree/master/00-resources/user_interface_kits"><img src="https://github.com/InfoJobs/brand/blob/master/_gh-header/03-gh-header.jpg" alt="user interface kits" ></a>
+<a href="http://infojobs.github.io/brand/"><img src="https://github.com/InfoJobs/brand/blob/master/_gh-header/04-gh-header.jpg" alt="InfoJobs brand site" ></a>
 If you have any questions and/or suggestions, please send us an email to [design@infojobs.net] (mailto:design@infojobs.net)
 
 ***
