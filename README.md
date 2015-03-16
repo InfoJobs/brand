@@ -1,5 +1,4 @@
 ![alt text](../master/_gh-header/04-gh-header.jpg)
-
 If you have any questions and/or suggestions, please send us an email to [design@infojobs.net] (mailto:design@infojobs.net)
 
 ***
