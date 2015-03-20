@@ -87,12 +87,12 @@
 
 @mixin font-size($font-size: 16){
     font-size:($font-size)*1px;
-    font-size:($font-size / $basefontsize)*1rem;
+    //font-size:($font-size / $basefontsize)*1rem;
 }
 
 @mixin line-height($line-height: 16){
     line-height:($line-height)*1px;
-    line-height:($line-height / $basefontsize)*1rem;
+    //line-height:($line-height / $basefontsize)*1rem;
 }
 
 
