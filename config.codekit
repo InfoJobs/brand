@@ -40,27 +40,14 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/!referencia.png": {
-		"fileType": 32768,
+	"\/firmas\/index.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.05304e+06,
-		"inputAbbreviatedPath": "\/images\/!referencia.png",
-		"outputAbbreviatedPath": "\/images\/!referencia.png",
+		"inputAbbreviatedPath": "\/firmas\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/brand-img.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 81935,
-		"inputAbbreviatedPath": "\/images\/brand-img.jpg",
-		"outputAbbreviatedPath": "\/images\/brand-img.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/images\/corporativo.png": {
 		"fileType": 32768,
@@ -84,17 +71,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ejem-empleo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 145467,
-		"inputAbbreviatedPath": "\/images\/ejem-empleo.png",
-		"outputAbbreviatedPath": "\/images\/ejem-empleo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/ejem-executive.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -106,17 +82,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ejem-executive.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 167412,
-		"inputAbbreviatedPath": "\/images\/ejem-executive.png",
-		"outputAbbreviatedPath": "\/images\/ejem-executive.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/ejem-freelance.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -124,17 +89,6 @@
 		"initialSize": 30882,
 		"inputAbbreviatedPath": "\/images\/ejem-freelance.jpg",
 		"outputAbbreviatedPath": "\/images\/ejem-freelance.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/ejem-freelance.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 151877,
-		"inputAbbreviatedPath": "\/images\/ejem-freelance.png",
-		"outputAbbreviatedPath": "\/images\/ejem-freelance.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,17 +115,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ejem-product.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 102687,
-		"inputAbbreviatedPath": "\/images\/ejem-product.png",
-		"outputAbbreviatedPath": "\/images\/ejem-product.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/file.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -179,17 +122,6 @@
 		"initialSize": 1375,
 		"inputAbbreviatedPath": "\/images\/file.png",
 		"outputAbbreviatedPath": "\/images\/file.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/header-img.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 87286,
-		"inputAbbreviatedPath": "\/images\/header-img.jpg",
-		"outputAbbreviatedPath": "\/images\/header-img.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -212,17 +144,6 @@
 		"initialSize": 2773,
 		"inputAbbreviatedPath": "\/images\/infojobs.png",
 		"outputAbbreviatedPath": "\/images\/infojobs.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-app.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4374,
-		"inputAbbreviatedPath": "\/images\/logo-app.png",
-		"outputAbbreviatedPath": "\/images\/logo-app.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -256,28 +177,6 @@
 		"initialSize": 9844,
 		"inputAbbreviatedPath": "\/images\/logo-invertido.png",
 		"outputAbbreviatedPath": "\/images\/logo-invertido.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-photo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 117197,
-		"inputAbbreviatedPath": "\/images\/logo-photo.png",
-		"outputAbbreviatedPath": "\/images\/logo-photo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/logo-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13399,
-		"inputAbbreviatedPath": "\/images\/logo-white.png",
-		"outputAbbreviatedPath": "\/images\/logo-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -347,15 +246,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/js\/jquery.fancybox.js": {
 		"fileType": 64,
@@ -455,6 +345,29 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ZeroClipboard.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ZeroClipboard.js",
+		"outputAbbreviatedPath": "\/js\/min\/ZeroClipboard-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/_contenido.scss": {
 		"createSourceMap": 0,
