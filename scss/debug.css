@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Activa esta hoja de estilos para detectar visualmente cualquier
+ * anidaci├│n impropia o marcado potencialmente inv├ílido.
+ *
+ * Rojo           ==      Definitivamente un error
+ * Amarillo       ==      a revisar
+ * Ninguno        ==      deber├¡a estar bien
+ *
+ * Este m├®todo de validaci├│n no es m├ís que una gu├¡a, no te bases en el
+ * para validar tu marcado
+ *
+ */
+/**
+ * Hay elementos vac├¡os?
+ */
+:empty {
+  outline: 5px solid yellow; }
+
+/**
+ * Las im├ígenes requieren el atributo ALT, un ALT vac├¡o no es del todo malo
+ * pero una imagen sin ALT definitivamente est├í mal.
+ */
+img {
+  outline: 5px solid red; }
+
+img[alt] {
+  outline: none; }
+
+img[alt=""] {
+  outline: 5px solid yellow; }
+
+/**
+ * Los links algunas veces, no siempre, se benefician del atributo "title".
+ * Links sin 'title' no son inv├ílidos, pero es buena idea revisar.
+ */
+a {
+  outline: 5px solid yellow; }
+
+a[title] {
+  outline: none; }
+
+/**
+ * Revisa los "href" con contenido dudoso.
+ */
+a[href="#"],
+a[href*="javascript"] {
+  outline: 5px solid yellow; }
+
+/**
+ * El atributo 'target=""' es.... bueno, revisa.
+ */
+a[target] {
+  outline: 5px solid yellow; }
+
+/**
+ * Aseg├║rate que una lista solo anida LI's
+ */
+ul > *:not(li),
+ol > *:not(li) {
+  outline: 5px solid red; }
+
+/**
+ * Deber├¡amos asignar un atributo 'scope' a los th
+ * http://bit.ly/1aHBDgW
+ */
+th {
+  outline: 5px solid yellow; }
+
+th[scope] {
+  outline: none; }
+
+/**
+ * los tr hijos de 'table' no son buenos, ┬┐necesitabas un 'thead' / 'tbody'?
+ */
+table > tr {
+  outline: 5px solid yellow; }
+
+/**
+ * `tfoot` debe estar *antes* de `tbody`.
+ */
+tbody + tfoot {
+  outline: 5px solid yellow; }
+
+/**
+ * Forms necesitan del atributo `action`
+ */
+form {
+  outline: 5px solid red; }
+
+form[action] {
+  outline: none; }
+
+/**
+ * Varios elementos de formularios requieren atributos. 'input' necsita de 'type'
+ * 'textarea' necesita `rows' y 'cols' y 'submit' necesita del atributo 'value'.
+ */
+textarea,
+input {
+  outline: 5px solid red; }
+
+input[type] {
+  outline: none; }
+
+textarea[rows][cols] {
+  outline: none; }
+
+input[type=submit] {
+  outline: 5px solid red; }
+
+input[type=submit][value] {
+  outline: none; }
+
+/**
+ * Evitamos estilos _inline_ a ser posible.
+ */
+[style] {
+  outline: 5px solid yellow; }
+
+/**
+ * Deber├¡as evitar IDs para CSS.
+ */
+[id] {
+  outline: 5px solid yellow; }
+
+/*# sourceMappingURL=debug.css.map */

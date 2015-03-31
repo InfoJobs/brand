@@ -28,6 +28,18 @@
 	width : device-width;
 }
 
+::-moz-selection {
+  background-color: #00a550 !important;
+  color: white !important;
+  text-shadow: none !important;
+}
+
+::selection {
+  background-color: rgba(0, 165, 80, 0.8) !important;
+  color: white !important;
+  text-shadow: none !important;
+}
+
 html {
 	font-size : 100%;
 	-webkit-overflow-scrolling : touch;
@@ -804,6 +816,74 @@ nav {
 		}
 		
 	}
+	&.slim-card {
+		position: relative;
+		min-height: 158px;
+
+		.img_container{
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 25%;
+			overflow: hidden;
+
+			&.right img{
+				left: auto;
+				right: 0;
+			}
+
+			img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				max-width: initial;
+				height: 100%;
+			}
+		}
+		.content_card{
+			padding-left: 25%;
+
+			div,
+			p,
+			a,{
+				display: block;
+				padding-left: 20px;
+			}
+
+			a{
+				color: #d6e5f1;
+
+				span{
+					color: #2088c2;
+				}
+			}
+		}
+		@media (max-width: 1199px){
+			.img_container{
+				display: none;
+			}
+			.content_card{
+				padding-left: 0px;
+			}
+		}
+	}
+	&.dark{
+		background: $dayblue;
+		color: #fff;
+
+		.content_card{
+
+			a{
+				color: #d6e5f1;
+
+				span{
+					color: #fff;
+				}
+			}
+		}
+	}
 }
 
 
@@ -1086,4 +1166,3 @@ ul + .grid {
 		padding: 40px 20px;
 	}
 }
-
