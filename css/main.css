@@ -48,16 +48,18 @@ html {
 
 h1 {
   font-family: "Proximanovabold", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   color: #fff;
-  margin-bottom: 0;
+  line-height: 37px;
+  margin-bottom: 0px;
 }
 
 p {
   font-family: "Proximanova", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #fff;
-  margin-top:0;
+  line-height: 20px;
+  margin-top: 10px;
 }
 
 a {
@@ -65,7 +67,7 @@ a {
 }
 
 svg {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -74,6 +76,7 @@ svg {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width:90%;
 }   
 
 /*
