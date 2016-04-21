@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    $GRID
+\*------------------------------------*/
+
+//--------------------------------------
+// Config
+//--------------------------------------
+$gap-grid: 10px;
+$grid-size: 12;
+
+
+.grid {
+    display: flex;
+    align-items: stretch;
+
+    // flex-wrap: wrap;
+    margin-right: -$gap-grid;
+    margin-left: -$gap-grid;
+
+}
+
+[class^="col-"], [class*=" col-"] {
+	flex-shrink: 0;
+  	flex-grow: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@for $i from 1 to $grid-size + 1 {
+	.col-#{$i} {
+        // flex-basis: 100 / $grid-size * $i * 1%;
+        // max-width: 100 / $grid-size * $i * 1%;
+        width: 100 / $grid-size * $i * 1%;
+        float: left;
+        display: inline-block;
+
+		.box-row {
+            padding: 0 10px;
+        }
+
+        &.pull-right {
+			margin-right:  -($gap * 1.5);
+		}
+
+		&.pull-left {
+			margin-left:  -($gap * 2);
+		}
+	}
+}

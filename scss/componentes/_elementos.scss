@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    $ELEMENTOS
+\*------------------------------------*/
+
+hr {
+	clear : both;
+	display : block;
+	padding : 0;
+	height : 1px;
+	border : 0;
+    margin: 20px 0 40px 0;
+	border-top : 1px solid $darkestshiro;
+}
+
+
+
+
+/*------------------------------------*\
+    $ELEMENTOS-IMÁGENES
+\*------------------------------------*/
+img {
+	max-width : 100%;
+	border-width : 0;
+	vertical-align : middle;
+	-ms-interpolation-mode : bicubic;
+}
+
+

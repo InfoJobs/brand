@@ -1,0 +1,189 @@
+
+
+
+
+
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+%btn {
+    position: relative;
+    height: 40px;
+	display: inline-block;
+	line-height: ($gap * 2) - 3px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+    min-width: 250px;
+	white-space: nowrap;
+	border: none;
+	font-weight: normal;
+	cursor : pointer;
+	margin:0;
+    padding: 0 20px;
+	padding-top: 3px;
+   	padding-bottom: 0;
+    margin-top: 10px;
+    overflow: hidden;
+    -webkit-transition: all 200ms ease;
+       -moz-transition: all 200ms ease;
+         -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active,
+    &:focus {
+        outline: none;
+    }	
+    &:active {
+        background-color: darken($dayblue, 15%);
+    }	
+}
+.btn {
+	@extend %btn;
+	color: $shiro;
+	background-color: $dayblue;
+     
+    &.w100 {
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    
+    span {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        -webkit-transition: all 200ms ease;
+               -moz-transition: all 200ms ease;
+                 -o-transition: all 200ms ease;
+                    transition: all 200ms ease
+    }
+    
+    &:hover {
+		background-color: darken($dayblue, 5%);
+		color: $shiro;
+        -webkit-transition: all 200ms ease;
+           -moz-transition: all 200ms ease;
+             -o-transition: all 200ms ease;
+                transition: all 200ms ease;
+
+        span {
+            top: 100%;
+            -webkit-transition: all 200ms ease;
+               -moz-transition: all 200ms ease;
+                 -o-transition: all 200ms ease;
+                    transition: all 200ms ease;
+
+        }
+	}
+    
+    &::before {
+        content: attr(data-size);
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: -100%;
+        background-color: darken($dayblue, 5%);
+        height: 40px;
+        line-height: 40px;
+        padding-top: 3px;
+        left: 0px;
+        -webkit-transition: all 200ms ease;
+           -moz-transition: all 200ms ease;
+             -o-transition: all 200ms ease;
+                transition: all 200ms ease;
+        
+    }
+    
+    &:hover::before {
+        top: 0;
+    }
+    
+    
+
+    &:visited,
+    &:focus {
+		color: $shiro;
+	}
+    
+    
+}
+
+
+.btn-link {
+	@extend %btn;
+	color: $dayblue;
+	background-color: $shiro;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    span {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        -webkit-transition: all 200ms ease;
+               -moz-transition: all 200ms ease;
+                 -o-transition: all 200ms ease;
+                    transition: all 200ms ease
+    }
+    
+    &:hover {
+		background-color: darken($dayblue, 5%);
+        -webkit-transition: all 200ms ease;
+           -moz-transition: all 200ms ease;
+             -o-transition: all 200ms ease;
+                transition: all 200ms ease;
+
+        span {
+            top: 100%;
+            -webkit-transition: all 200ms ease;
+               -moz-transition: all 200ms ease;
+                 -o-transition: all 200ms ease;
+                    transition: all 200ms ease;
+
+        }
+	}
+    
+    &::before {
+        content: attr(data-size);
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: -100%;
+        color: $shiro;
+        background-color: darken($dayblue, 15%);
+        height: 40px;
+        line-height: 40px;
+        padding-top: 3px;
+        left: 0px;
+        -webkit-transition: all 200ms ease;
+           -moz-transition: all 200ms ease;
+             -o-transition: all 200ms ease;
+                transition: all 200ms ease;
+        
+    }
+    
+    &:hover::before {
+        top: 0;
+    }
+    
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:visited,
+    &:focus {
+		color: $dayblue;
+	}
+
+}

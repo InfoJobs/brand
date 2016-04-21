@@ -1,0 +1,59 @@
+
+
+
+
+
+/*------------------------------------*\
+    $FUENTES
+\*------------------------------------*/
+@font-face {
+  font-family: 'Proximanova';
+  src: url('#{$path-font}/proximanova-regular.eot?') format('eot'),
+	  url('#{$path-font}/proximanova-regular.woff') format('woff'),
+	  url('#{$path-font}/proximanova-regular.otf') format('opentype'),
+	  url('#{$path-font}/proximanova-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proximanovalight';
+  src: url('#{$path-font}/proximanova-light.eot?') format('eot'),
+	  url('#{$path-font}/proximanova-light.woff') format('woff'),
+	  url('#{$path-font}/proximanova-light.otf') format('opentype'),
+	  url('#{$path-font}/proximanova-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proximanovabold';
+  src: url('#{$path-font}/proximanova-bold.eot?') format('eot'),
+	  url('#{$path-font}/proximanova-bold.woff') format('woff'),
+	  url('#{$path-font}/proximanova-bold.otf') format('opentype'),
+	  url('#{$path-font}/proximanova-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proximanovasemibold';
+  src: url('#{$path-font}/proximanova-semibold.eot?') format('eot'),
+	  url('#{$path-font}/proximanova-semibold.woff') format('woff'),
+	  url('#{$path-font}/proximanova-semibold.otf') format('opentype'),
+	  url('#{$path-font}/proximanova-semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Icons';
+	src:url('#{$path-font}/icomoon.eot?') format('eot'),
+		url('#{$path-font}/icomoon.woff') format('woff'),
+		url('#{$path-font}/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InfoJobs';
+	src:url('#{$path-font}/InfoJobs.eot?');
+	src:url('#{$path-font}/InfoJobs.eot?#iefix') format('embedded-opentype'),
+		url('#{$path-font}/InfoJobs.woff?') format('woff'),
+		url('#{$path-font}/InfoJobs.ttf?') format('truetype'),
+		url('#{$path-font}/InfoJobs.svg?#InfoJobs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

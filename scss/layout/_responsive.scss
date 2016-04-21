@@ -1,0 +1,341 @@
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+
+// paneles con padding lateral menor en menos de 1024
+
+@media all and (max-width: 1024px){
+    .panel{
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .show-small{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .hidden-small{
+        display: none
+    }
+
+    .show-small{
+        display: inline;
+    }
+
+
+//--------------------------------------
+// Colummns responsive
+//--------------------------------------
+
+
+    .grid {
+        display: block;
+    }
+
+    @for $i from 1 to $grid-size + 1 {
+        .col-#{$i} {
+            width: 100%;
+            flex-basis: 100%;
+            float:none;
+            display: block;
+        }
+    }
+
+    .wrapper{
+        margin:0;
+    }
+
+
+//--------------------------------------
+// Header
+//--------------------------------------
+
+    .panel.header {
+        padding-top: 115px;
+        .inner_card{
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+
+//--------------------------------------
+// BG colors for img_container
+//--------------------------------------
+
+
+    .img_container {
+
+        &.colorbg-bluesky{
+            background: #CAE7F3;
+            text-align: center;
+        }
+        &.colorbg-bluesky-v2{
+            background: #BDDBED;
+            text-align: center;
+        }
+        &.colorbg-shiro{
+            background: $shiro;
+            text-align: center;
+        }
+        &.colorbg-dayblue{
+            background: $dayblue;
+            text-align: center;
+        }
+    }
+
+//--------------------------------------
+// Tricks
+//--------------------------------------
+
+    .reduced{
+        width:100%;
+    }
+
+    .margintop-small{
+        margin-top: 40px;
+    }
+
+    .margintop-small-half{
+        margin-top: 20px;
+    }
+
+    .margintop{
+        margin-top: 20px;
+    }
+
+    .box-row{
+         height: auto !important;
+    }
+
+    .subsection{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+        display: blcok;
+        &.ejemplos,
+        &.consejos,
+        &.listado-glosario{
+            padding-top: 40px;
+        }
+    }
+
+    .row-eq-height {
+      display: inline-block !important;
+    }
+
+
+//--------------------------------------
+// How we are
+//--------------------------------------
+
+    .personalidad{
+        .inner_card{
+            p{
+                &:last-child{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+
+//--------------------------------------
+// How we look
+//--------------------------------------
+
+    .aplicaciones{
+        .col-6{
+            width: 100%;
+            .col-6{
+                width: 49.5%;
+                flex-basis: 50%;
+                display: inline-block;
+                text-align: center;
+                float:none;
+            }
+        }
+    }
+
+    .ilustraciones{
+        .paleta{
+            top:50%;
+        }
+    }
+
+    .tipografia {
+        .abc {
+            padding-top: 0;
+            padding-bottom: 20px;
+            br{
+                display: none;
+                margin-left: 1rem;
+            }
+        }
+    }
+    .proximanova{
+        .col-8 {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    .arial{
+        .col-8 {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    .imagenes{
+        .inner_card.featured.forced-featured {
+            .img_container,
+            .content_card{
+                width: 100%;
+            }
+            .content_card.button-bottom .btn-container{
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+    }
+
+
+//--------------------------------------
+// How we talk
+//--------------------------------------
+
+    .ejemplos{
+        .indent{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .seo {
+        p.margintop {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .yes-no{
+        li{
+            width: 100%;
+
+            &.yes{
+                border-radius:4px;
+                margin-bottom: 5px;
+            }
+            &.no{
+                border-radius:4px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .yes-no.withtitle{
+        .no{
+            margin-top: 25px;
+        }
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+//--------------------------------------
+// Menu mobile
+//--------------------------------------
+
+    .logo {
+        display: inline;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav{
+        .nav_wrapper {
+            padding:0 20px;
+            position: relative;
+
+            ul {
+                position: absolute;
+                right: 0;
+                top:65px;
+                display: none;
+                height: auto;
+                width: 100%;
+                background: #FFFFFF;
+                z-index: 100;
+                padding-bottom: 20px;
+                text-align: left;
+                padding-left: 20px;
+                padding-right: 20px;
+                li {
+                    float: none;
+                    display: block;
+                    position: relative;
+                    margin-top: 5px;
+                    &:last-child{
+                        padding-right: 10px;
+                    }
+                    a,
+                    a.current{
+                        padding-bottom: 10px;
+                    }
+                }
+
+            }
+
+            a#pull {
+                display: inline;
+                position: asolute;
+                left: 25px;
+                top: 30px;
+                width: 24px;
+                height: 24px;
+                &:after {
+                    content:"";
+                    background: url('../images/nav.png') no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    display: inline-block;
+                    position: absolute;
+                    left: 25px;
+                    top: 30px;
+                }
+            }
+
+        }
+
+        .nav_wrapper
+        .nav_wrapper
+        .nav_wrapper a {
+            text-align: right;
+            width: 100%;
+            text-indent: 25px;
+        }
+    }
+
+    .aplicaciones{
+        .col-6{
+            .col-6{
+                width: 49%;
+                flex-basis:49%;
+            }
+        }
+    }
+}
+
+
+/// END Responsive
