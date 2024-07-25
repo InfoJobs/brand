@@ -6,6 +6,7 @@ If you have any questions and/or suggestions, please send us an email to [design
 ***
 
 <h3>Extra ball: here're some great places to find stock photos</h3>
+
 * [Stocksy](http://www.stocksy.com/)
 * [Dollar Photo Club](http://es.dollarphotoclub.com/)
 * [Pic Jumbo](http://picjumbo.com/)
